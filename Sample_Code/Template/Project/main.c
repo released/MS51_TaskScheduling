@@ -592,9 +592,9 @@ unsigned char task_LED(void)
 		Entry();	
 		
 		//insert application		
-		for(i=0;i<1000;i++)
+		for(i=0;i<10;i++)
 		{   
-			DelayTask(1U);
+			DelayTask(100U);
 		}
 //		send_UARTString("LED:1000ms\r\n");
 		GPIO_Toggle();
